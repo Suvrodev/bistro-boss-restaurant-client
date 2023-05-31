@@ -18,7 +18,11 @@ const Home = () => {
             <Category></Category>
             <PopularMenu></PopularMenu>
             <Featured></Featured>
-            <Testimonials></Testimonials>
+
+              {/* <li><NavLink className={({isActive})=> isActive? 'text-blue-500 font-extrabold':''}  to='/secret'>Secret</NavLink ></li> */}
+
+
+
         </div>
     );
 };
